@@ -1,0 +1,26 @@
+.tab {
+	background-color: transparent;
+	color: #123456;
+	cursor: pointer;
+	border: none;
+	font-size: 18px;
+	padding: 10px;
+}
+
+.activeTab {
+	border-bottom: 3px solid #123456;
+}
+
+.tab:hover {
+	background-color: #8ea4b9;
+}
+
+.tab:focus {
+	border: none;
+	outline: none;
+}
+
+.tab:focus-visible {
+	background-color: #8ea4b9;
+	border-bottom: 3px solid #123456;
+}

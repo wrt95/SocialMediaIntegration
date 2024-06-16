@@ -1,0 +1,1 @@
+export { TiktokPage } from './TiktokPage';
